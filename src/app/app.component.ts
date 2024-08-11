@@ -156,6 +156,10 @@ export class AppComponent implements OnInit{
     this.players = [];
     this.gameStarted = false;
     this.rummyForm.reset();
+    for(let i=0;i<this.rummyForm.length;i++){
+      this.removeHint(i)
+    }
+    localStorage.removeItem('gameData');
   }
 
   // Method to remove all controls from the FormGroup
