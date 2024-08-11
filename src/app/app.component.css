@@ -1,0 +1,23 @@
+.bi-person-plus-fill {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
+
+.bi-clipboard2-plus-fill {
+    position: absolute;
+    left: 9px;
+    bottom: 5px;
+}
+
+.bi-trash-fill {
+    position: absolute;
+    left: 9px;
+    bottom: 3px;
+}
+
+.btn-icon {
+    height: 35px;
+    width: 35px;
+    position: relative;
+}
